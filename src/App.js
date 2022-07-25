@@ -28,7 +28,7 @@ function App() {
 			</div>
 			<br />
 			<div className='second-block'>
-				<div>
+				<div className='container2'>
 					Choose an expense:<br />
 					<select name='expenses' id='expenses-select'>
 						<option value=''>--Please choose an option--</option>
@@ -43,8 +43,8 @@ function App() {
 				<div className='expenses'>
 					Expense Costs:
 					<br />
-					<input type='text' className='sum' value='submit'
-					onsubmit='CalculateSum(this)' placeholder='€' >
+					<input type='text' className='sum'
+					onsubmit='CalculateSum(this)' placeholder='€ 0,00' >
 					</input>
 				</div>
 			</div>
