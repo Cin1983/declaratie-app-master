@@ -1,8 +1,49 @@
-*{
-	background-color: rgb(40, 38, 38);
-	color:aliceblue;
+* {
+	background-color: rgb(36, 34, 34);
+	font-family: 'Pathway Gothic One', sans-serif;
+
+	color: whitesmoke;
 }
 
-.title{
-	font-family: 'Pathway Gothic One', sans-serif;
+.title {
+	font-family: 'Gantari', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+h1 {
+	color: rgb(255, 128, 0);
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.second-block{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.third-block{
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+select {
+	box-shadow: 1px 1.4px #827f7f;
+	width:309px;
+	height:40px;
+}
+
+textarea{
+	box-shadow: 1px 1.4px #827f7f;
+	width:300px;
+	height:35px;
+}
+
+input{
+	width:300px;
+	height:35px;
 }
