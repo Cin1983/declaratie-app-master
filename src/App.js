@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-   <div></div>
+   <div><h1>Declaration App</h1></div>
 
   );
 }
