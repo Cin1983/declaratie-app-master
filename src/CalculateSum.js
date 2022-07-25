@@ -1,10 +1,17 @@
 let transactionSum = document.querySelector('.sum');
 
-transactionSum.addEventListener(onsubmit,CalculateSum);
-
+transactionSum.addEventListener('submit',CalculateSum);
 
 function CalculateSum(e) {
-let mySum = e.input.value;
-}
+const mySum = e.target.value;
+
+if (!mySum){
+	prompt('Please enter your expense!');
+}else
+prompt('Thank you!')
+};
+
+
+
 
 export default CalculateSum;

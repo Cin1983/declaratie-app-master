@@ -5,7 +5,7 @@ function App() {
 	return (
 		<div>
 			<div className='img-header'>
-				<img src={image} alt='image-header' width='150px' />
+				<img src={image} alt='image-header' width='160px' />
 			</div>
 			<div className='title'>
 				<h1>Declaratie App</h1>
@@ -44,7 +44,7 @@ function App() {
 					Expense Costs:
 					<br />
 					<input type='text' className='sum'
-					onsubmit='CalculateSum(this)' placeholder='€ 0,00' >
+					onsubmit='CalculateSum(this.value)' placeholder='€ 0,00' >
 					</input>
 				</div>
 			</div>
